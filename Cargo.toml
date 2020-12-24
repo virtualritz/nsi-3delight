@@ -13,4 +13,4 @@ documentation = "https://docs.rs/nsi-3delight/"
 repository = "https://github.com/virtualritz/nsi-3delight/"
 
 [dependencies]
-nsi = { path = "../nsi", features = [ "toolbelt"] }
+nsi = { path = "*", features = [ "toolbelt"] }
