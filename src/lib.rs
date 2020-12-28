@@ -30,7 +30,7 @@ pub fn environment(
     // Create a rotation transform – this is the handle we return.
     let rotation = ctx.rotation(
         None,
-        angle.unwrap_or(0.0) * core::f64::consts::TAU / 90.0,
+        angle.unwrap_or(0.0),
         &[0.0, 1.0, 0.0],
     );
 
