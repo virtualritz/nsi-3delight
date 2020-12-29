@@ -1,6 +1,6 @@
 [package]
 name = "nsi-3delight"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Moritz Moeller <virtualritz@gmail.com>"]
 edition = "2018"
 keywords = ["graphics", "rendering", "3d", "ray-tracing", "3delight"]
@@ -13,4 +13,4 @@ documentation = "https://docs.rs/nsi-3delight/"
 repository = "https://github.com/virtualritz/nsi-3delight/"
 
 [dependencies]
-nsi = { version = "0.5.7", features = [ "toolbelt"] }
+nsi = { version = "~0.6", features = [ "toolbelt"] }
